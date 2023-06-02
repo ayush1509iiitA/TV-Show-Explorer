@@ -1,0 +1,177 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  box-sizing:border-box;
+align-content: center;
+  background-color: #181B22;
+  margin: 0;
+  font-family : "iA Writer Mono S","Courier New",monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #aaa;
+  padding-left: 16rem;
+  padding-right: 16rem;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+
+
+
+
+
+.show-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width : 1000px;
+  
+}
+
+.show-card h2 {
+  margin-top: 0;
+}
+
+.show-card p {
+  margin-bottom: 18px;
+  margin-top: 16px;
+
+}
+
+.show-card .view-details-btn {
+  background-color: #aaa;
+  color:#181b22 ;
+  border: none;
+  padding: 8px 26px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1.5rem;
+  font-size:27px;
+}
+
+.show-card .view-details-btn:hover {
+  background-color: #035dbd;
+}
+
+.show-card .view-details-btn:focus {
+  outline: none;
+}
+td{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
+
+
+
+
+
+/* show-details style */
+
+.show-details {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  border-color: aqua;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 23px;
+  
+}
+
+
+
+
+
+
+
+/* navbar style */
+/* nav{
+  background-color: white;
+} */
+
+ul {
+  background-color: #aaa;
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  size: 6rem;
+}
+.nav-link {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #181b22;
+  border-radius: 1.5px;
+  list-style-type: none;
+  
+}
+
+
+.nav-link:hover {
+  background-color: #181b22;
+}
+.nav-btn{
+  
+  font-size: larger;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+
